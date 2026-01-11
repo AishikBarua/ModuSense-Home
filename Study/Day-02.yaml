@@ -1,0 +1,75 @@
+
+---
+
+#### 🟢 Analog Signals
+- Continuous range of values
+- Represent real-world variations
+
+Examples:
+- Temperature level
+- Gas concentration
+- Light intensity
+
+
+---
+
+### Signal Comparison
+
+| Digital Signal | Analog Signal |
+|--------------|---------------|
+| Discrete values (0/1) | Continuous values |
+| Simple | More detailed |
+| Uses GPIO | Uses ADC |
+
+---
+
+### 5️⃣ GPIO (General Purpose Input Output)
+
+**GPIO pins** are configurable pins on a microcontroller that allow it to interact with the physical world.
+
+#### GPIO Modes:
+| Mode | Description |
+|----|------------|
+| INPUT | Reads sensor data |
+| OUTPUT | Controls devices |
+| INPUT_PULLUP | Input with internal resistor |
+
+Examples:
+- PIR motion sensor → GPIO INPUT
+- LED or relay → GPIO OUTPUT
+
+📌 Interview-ready statement:
+> GPIO pins are programmable pins used to read inputs from sensors and control outputs like LEDs and relays.
+
+---Link- https://youtu.be/QxvdmzKxEeg
+
+## 🏠 GPIO in Smart Home Context
+
+A typical smart home interaction:
+
+
+GPIO pins enable automation and real-time control in smart home systems.
+
+---
+
+## ✅ Day 02 Outcome
+By the end of Day 02, I can:
+- Explain voltage, current, and ground
+- Differentiate analog and digital signals
+- Describe how GPIO pins work
+- Explain GPIO usage in smart home systems
+
+---
+
+## 🚀 Next Step (Day 03 Preview)
+On **Day 03**, I will learn:
+- Analog-to-Digital Conversion (ADC)
+- ESP32 pin mapping
+- Which GPIO pins are safe to use
+- Why some pins have special functions
+
+---
+
+📅 **Learning Pace:** 1.5 hours/day  
+🎯 **Project Goal:** Build a modular ESP32-based Smart Home System (ModuSense Home)
+
