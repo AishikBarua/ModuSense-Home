@@ -1,0 +1,26 @@
+
+ESP32 collects sensor data, processes it, and communicates with mobile applications via Bluetooth or Wi-Fi.
+
+---
+
+## ✅ Day 01 Outcome
+By the end of Day 01, I can confidently explain:
+- What hardware is
+- What embedded systems are
+- The difference between MCU and MPU
+- Why ESP32 is suitable for smart home and IoT systems
+
+---
+
+## 🚀 Next Step (Day 02 Preview)
+On **Day 02**, I will learn:
+- Voltage, current, and ground
+- Digital vs analog signals
+- GPIO fundamentals
+
+These are **mandatory concepts** for embedded systems and IoT interviews.
+
+---
+
+📅 **Learning Pace:** 1.5 hours/day  
+🎯 **Goal:** Build a modular ESP32-based Smart Home System
