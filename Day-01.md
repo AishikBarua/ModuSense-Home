@@ -92,3 +92,5 @@ ESP32 acts as the **central brain** of the smart home system.
 ## 🏠 Smart Home Context
 A smart home system typically follows this flow:
 
+
+<img width="980" height="712" alt="image" src="https://github.com/user-attachments/assets/ea339701-c552-4084-a877-3541debfe89e" />
