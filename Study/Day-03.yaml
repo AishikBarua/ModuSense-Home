@@ -1,0 +1,96 @@
+
+Analog sensors represent **real-world variations**, not just ON/OFF states.
+
+---
+
+### 2️⃣ Why ADC is Required
+Microcontrollers like the ESP32 **cannot process voltage directly**.
+
+An **ADC (Analog-to-Digital Converter)** converts analog voltage into a **digital number**.
+
+ESP32 ADC:
+- 12-bit resolution
+- Digital range: `0 – 4095`
+
+---
+
+### 3️⃣ ADC Resolution & Accuracy
+**ADC resolution** determines how precisely voltage changes can be measured.
+
+Example:
+1.65V ≈ 2048 (12-bit ADC)
+
+
+Higher resolution:
+- Detects smaller changes
+- Improves accuracy
+
+📌 Interview-ready statement:
+> ADC resolution defines the smallest voltage difference that can be detected by the system.
+
+---
+
+### 4️⃣ Real-World Analog Sensors
+
+#### Gas Sensor (MQ Series)
+- Outputs analog voltage
+- Used for gas leakage detection
+- Requires calibration
+
+#### Temperature Sensor (Analog Type)
+- Voltage varies with temperature
+- Sensitive to noise
+
+#### Light Sensor (LDR)
+- Resistance changes with light
+- Converted to voltage using a resistor
+
+📌 Important Insight:
+> Real-world analog sensors are noisy and require filtering and calibration.
+
+---
+
+### 5️⃣ Threshold-Based Decision Making
+Smart home systems rarely use raw ADC values directly.
+
+Example threshold logic:
+ADC < 1500 → Safe
+ADC > 3000 → Alert
+
+
+This enables:
+- Automation
+- Alerts
+- Safety mechanisms
+
+---
+
+## 🏠 Smart Home Context
+Example: Gas leakage detection system
+
+Gas Sensor → ADC → ESP32 Processing → Alert / Notification
+
+
+Thresholds convert sensor data into meaningful actions.
+
+---
+
+## ✅ Day 05 Outcome
+By the end of Day 05, I can:
+- Explain analog sensor behavior
+- Describe how ADC works in ESP32
+- Explain ADC resolution and accuracy
+- Use thresholds for decision-making
+
+---
+
+## 🚀 Next Step (Day 06 Preview)
+On **Day 06**, I will learn:
+- Communication protocols (UART, I2C, SPI)
+- Which devices use which protocol
+- Why protocol selection matters in modular systems
+
+---
+
+📅 **Learning Pace:** 1.5 hours/day  
+🎯 **Project Goal:** Build a modular ESP32-based Smart Home System (ModuSense Home)
