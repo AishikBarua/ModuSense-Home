@@ -1,0 +1,62 @@
+
+### Example: Temperature Sensor
+1. Sensor reads temperature
+2. ESP32 processes data
+3. Value is formatted
+4. Display shows the output
+
+📌 This process is part of **data routing** inside the system.
+
+---
+
+## 🔹 Display in Smart Home Systems
+
+Even with mobile apps:
+- Displays provide local monitoring
+- Useful during network failure
+- Helpful for debugging
+
+📌 **Interview Insight**  
+> Displays act as a local and fail-safe interface in smart home systems.
+
+---
+
+## 🔹 Display Update Strategy
+
+### ❌ Poor Practice
+- Continuous screen updates
+- Causes flicker and CPU load
+
+### ✅ Good Practice
+- Update only when values change
+- Use refresh intervals
+
+📌 Shows efficient embedded system design.
+
+---
+
+## 🔹 Relation to ModuSense Home Project
+
+- OLED shows sensor values
+- Confirms sensor detection
+- Displays system status
+- Works as local debug interface
+
+---
+
+## ✅ Self-Check
+
+- [ ] I understand display types
+- [ ] I know which protocol each display uses
+- [ ] I understand data flow to displays
+- [ ] I can explain display choice in interviews
+
+---
+
+## 🧠 Key Takeaway
+> Displays enhance usability and provide real-time system feedback in embedded systems.
+
+---
+
+## 🚀 Next Step
+**Day 08:** ESP32 architecture, GPIO, ADC, PWM, and internal peripherals.
