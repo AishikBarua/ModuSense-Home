@@ -1,0 +1,125 @@
+
+### Explanation
+- CPU executes instructions
+- Memory stores program and data
+- Peripherals handle input/output operations
+
+---
+
+## 🔹 CPU and ALU
+
+### CPU (Central Processing Unit)
+- Executes program instructions
+- Controls system operations
+
+### ALU (Arithmetic Logic Unit)
+- Performs arithmetic operations
+- Performs logical comparisons
+
+📌 **Interview Line**  
+> The ALU is responsible for arithmetic and logical operations inside the CPU.
+
+---
+
+## 🔹 GPIO (General Purpose Input/Output)
+
+GPIO pins allow ESP32 to interact with external devices.
+
+### GPIO Modes
+| Mode | Description |
+|----|------------|
+| INPUT | Reads digital signals |
+| OUTPUT | Sends digital signals |
+| INPUT_PULLUP | Stabilizes floating inputs |
+
+### Smart Home Examples
+- Motion sensor input
+- Relay control
+- Button input
+
+---
+
+## 🔹 Analog vs Digital Signals
+
+### Digital Signal
+- Binary (0 or 1)
+- ON/OFF states
+
+### Analog Signal
+- Continuous voltage values
+- Range: 0V – 3.3V
+
+---
+
+## 🔹 ADC (Analog to Digital Converter)
+
+ADC converts analog voltage into a digital value.
+
+### Why ADC is Required
+- Sensors output analog voltages
+- ESP32 processes digital data
+
+### Smart Home Examples
+- Gas sensor
+- Light sensor
+- Temperature sensor (analog)
+
+📌 **Interview Line**  
+> ADC enables microcontrollers to read analog sensor values.
+
+---
+
+## 🔹 PWM (Pulse Width Modulation)
+
+PWM allows control of power using digital signals.
+
+### Applications
+- LED brightness control
+- Fan speed control
+- Motor control
+
+### Smart Home Examples
+- Light dimming
+- Fan speed adjustment
+
+📌 **Interview Line**  
+> PWM controls output power by varying the duty cycle.
+
+---
+
+## 🔹 ESP32 Pin Considerations
+
+- Not all GPIO pins support ADC
+- Some pins are input-only
+- Some pins affect boot mode
+
+📌 Always check ESP32 pinout before use.
+
+---
+
+## 🔹 Role of ESP32 in ModuSense Home
+
+- Central processing unit
+- Sensor data collection
+- Data routing and processing
+- Communication with mobile app
+- Display output handling
+
+---
+
+## ✅ Self-Check
+
+- [ ] I understand ESP32 architecture
+- [ ] I know GPIO usage
+- [ ] I understand ADC and PWM
+- [ ] I can explain ESP32 in interviews
+
+---
+
+## 🧠 Key Takeaway
+> ESP32 acts as the central control and communication unit in smart home systems.
+
+---
+
+## 🚀 Next Step
+**Day 09:** ESP32 firmware structure, main loop, tasks, and modular design.
