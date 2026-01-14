@@ -1,0 +1,105 @@
+
+### Architecture Explanation
+
+- ESP32 acts as the **central controller**
+- Sensors provide environmental data
+- Data routing module distributes data
+- Outputs include local display and mobile app
+- Communication uses BLE and Wi-Fi
+
+---
+
+## 🧩 Firmware Module Planning
+
+### Sensor Manager
+- Initializes all sensors
+- Reads analog and digital values
+- Abstracts sensor-specific logic
+
+### Protocol Handler
+- Handles BLE and Wi-Fi communication
+- Manages device discovery and pairing
+- Ensures protocol abstraction
+
+### Data Routing & Fan-Out
+- Routes data to multiple destinations
+- Enables simultaneous outputs
+- Decouples input and output logic
+
+### Display Manager
+- Updates OLED display
+- Formats sensor values for readability
+
+### Error Handling
+- Detects sensor or communication failure
+- Provides fallback behavior
+
+---
+
+## 📱 Android App Concept
+
+### Application Flow
+1. App launch
+2. Device discovery
+3. Secure pairing
+4. Sensor list retrieval
+5. Live data visualization
+
+### Design Goals
+- Modular UI components
+- Expandable sensor views
+- Clean user experience
+
+---
+
+## 🔧 Hardware Planning
+
+| Component | Purpose |
+|---------|--------|
+| ESP32 | Main controller |
+| Temperature Sensor | Environmental sensing |
+| Gas Sensor | Analog input demonstration |
+| Motion Sensor | Digital input |
+| OLED Display | Local output |
+
+---
+
+## 📂 Repository Structure (Planned)
+ModuSense-Home/
+├── firmware/
+├── android-app/
+├── hardware/
+├── docs/
+└── README.md
+
+
+---
+
+## 🔮 Future Enhancements
+
+- Cloud data synchronization
+- OTA firmware updates
+- Multi-device support
+- Security improvements
+- Web-based dashboard
+
+---
+
+## 🧠 Key Learning Outcomes
+
+- Importance of architecture-first approach
+- Modular firmware planning
+- Data routing concepts
+- Professional documentation practices
+
+---
+
+## ✅ Day 12 Status
+
+✔ Architecture designed  
+✔ Documentation prepared  
+✔ Ready for hardware setup  
+
+---
+
+
