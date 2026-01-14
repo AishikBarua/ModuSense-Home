@@ -1,0 +1,97 @@
+
+### Responsibilities
+- UI: Displays sensor data
+- ViewModel: Handles logic and state
+- Network Layer: Handles communication
+- Device Manager: Manages ESP32 devices
+
+---
+
+## 🔹 App Navigation Structure
+
+Suggested screens:
+- Device List
+- Add Device (+ button)
+- Connectivity Selection (BLE / Wi-Fi)
+- Sensor Dashboard
+- Device Settings
+
+📌 This structure supports modular device management.
+
+---
+
+## 🔹 Device Discovery & Pairing
+
+### BLE-Based Discovery
+- App scans nearby ESP32 devices
+- User selects device
+- Secure pairing is established
+
+📌 BLE is used mainly for first-time setup.
+
+---
+
+## 🔹 ESP32 ↔ Android Communication (API Concept)
+
+### What is an API?
+An API defines how the app and ESP32 exchange data.
+
+### Example API Endpoints
+- `/sensors/list`
+- `/sensor/read?id=temperature`
+- `/device/status`
+
+📌 Communication is request-response based.
+
+---
+
+## 🔹 Data Flow
+ESP32 → API → Android App → UI
+
+
+### Visualization
+- Numeric values
+- Status indicators
+- Alert messages
+
+---
+
+## 🔹 Security Basics
+
+Basic security concepts:
+- Device authentication
+- Secure pairing
+- Protected Wi-Fi credentials
+- Token-based access
+
+📌 Conceptual understanding is sufficient for beginner level.
+
+---
+
+## 🔹 Role in ModuSense Home Project
+
+- BLE for discovery
+- Wi-Fi for control
+- API-based communication
+- Modular UI design
+- Multi-device support
+
+---
+
+## ✅ Self-Check
+
+- [ ] I understand Android app architecture
+- [ ] I know how BLE discovery works
+- [ ] I understand API communication
+- [ ] I can explain app design in interviews
+
+---
+
+## 🧠 Key Takeaway
+> A well-structured Android app enables reliable, secure, and scalable control of smart home devices.
+
+---
+
+## 🚀 Next Step
+**Day 12:** System integration, testing strategy, and interview storytelling.
+
