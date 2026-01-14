@@ -92,4 +92,5 @@ This makes ESP32 suitable for IoT and smart home hubs.
 ---
 
 ## 🔹 Communication Flow
+Mobile App → Wi-Fi / BLE → ESP32 → Sensors / Actuators / Display
 
