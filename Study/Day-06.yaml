@@ -1,0 +1,46 @@
+
+This communication is API-based and event-driven.
+
+---
+
+## 🔹 Security Basics
+
+### Why Security Is Important
+- Prevent unauthorized access
+- Protect user data
+- Avoid device misuse
+
+### Basic Security Measures
+- Secure pairing
+- Authentication
+- Encrypted communication
+- Password-protected Wi-Fi
+
+📌 Conceptual understanding is sufficient for beginner level.
+
+---
+
+## 🔹 Connectivity Strategy for ModuSense Home
+
+- BLE → Device discovery & pairing
+- Wi-Fi → Normal operation & control
+- Secure communication → Basic authentication
+
+---
+
+## ✅ Self-Check
+
+- [ ] I understand Wi-Fi vs BLE
+- [ ] I know pairing flow
+- [ ] I understand connectivity strategy
+- [ ] I can explain security basics
+
+---
+
+## 🧠 Key Takeaway
+> ESP32 connectivity enables smart home automation, remote control, and secure device communication.
+
+---
+
+## 🚀 Next Step
+**Day 11:** Native Android app architecture and ESP32 ↔ App API communication.
